@@ -1,0 +1,59 @@
+.container {
+    border-radius: 10px;
+    margin: 50px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    font-family: rubik;
+    padding: 20px 10px 0 20px;
+}
+
+p{
+    font-weight: 700;
+    font-size:24px;
+    line-height:32px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+hr{
+    width: 75%;
+    color: aqua;
+    opacity: 0.4;
+    float:left;
+}
+
+#card-image{
+    height:200px;
+    width: 340px;
+    border-radius: 10px;
+}
+
+.price-box{
+    font-weight: bold;
+    margin-top:8px;
+}
+
+#current-price{
+    font-size: 18px;
+    color:#6674cc;
+    margin-right:4px;
+}
+
+#real-price{
+    font-size: 18px;
+    color:#777C85;   
+    margin-right:4px;
+}
+
+#offer{
+    font-size: 15px;
+    box-sizing: border-box;
+    color:white;
+    padding:4px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 3px;
+    background-color: #1dd1a1;
+    margin-right:4px;
+}
