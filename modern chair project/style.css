@@ -373,7 +373,7 @@ h5 {
     border: none;
     cursor: pointer;
     /* overflow: hidden; */
-    /* background-color: transparent; */
+    background-color: #944852;
     color: #fff;
     box-shadow: 0 6px 15px 0 rgba(16, 39, 112, 0.15);
     transition: all 250ms linear;
@@ -386,7 +386,7 @@ h5 {
     font-size: 20px;
 }
 
-.btn:before {
+/* .btn:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -396,29 +396,29 @@ h5 {
     z-index: -1;
     background-color: #944852;
     transition: background-color 250ms 300ms ease;
-}
+} */
 
 .btn:hover {
     box-shadow: 0 12px 35px 0 rgba(16, 39, 112, 0.25);
     background-color: #333;
 }
 
-.forColor2:checked~.infoWrap .btn:before {
+.forColor2:checked~.infoWrap .btn {
     background-color: #1a1a1a;
 }
 
-.forColor3:checked~.infoWrap .btn:before {
+.forColor3:checked~.infoWrap .btn {
     background-color: #40566e;
 }
 
-.forColor4:checked~.infoWrap .btn:before {
+.forColor4:checked~.infoWrap .btn {
     background-color: #5e89b2;
 }
 
-.forColor5:checked~.infoWrap .btn:before {
+.forColor5:checked~.infoWrap .btn {
     background-color: #8c7f76;
 }
 
-.forColor6:checked~.infoWrap .btn:before {
+.forColor6:checked~.infoWrap .btn {
     background-color: #5d6160;
 }
