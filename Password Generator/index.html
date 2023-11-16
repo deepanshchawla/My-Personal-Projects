@@ -6,7 +6,10 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -15,7 +18,7 @@
         <div class="display-container">
             <input readonly placeholder="Password" class="display" data-passwordDisplay>
             <button data-copy>
-                <span data-copyMsg></span>
+                <span class="tooltip" data-copyMsg></span>
 
                 <img src="/images/copy.svg" alt="" width="23" height="23">
             </button>
@@ -33,20 +36,27 @@
             <input type="range" min="1" max="20" value="10" class="slider" step="1" data-lengthSlider>
 
             <!-- checkboxes -->
-            <div>
+            <!-- <div class="check"> -->
+            <div class="check">
                 <input type="checkbox" name="" id="uppercase">
                 <label for="uppercase">Include Uppercase Letters</label>
-                
+            </div>
+            
+            <div class="check">
                 <input type="checkbox" name="" id="lowercase">
                 <label for="lowercase">Include Lowercase Letters</label>
-                
+            </div>
+
+            <div class="check">
                 <input type="checkbox" name="" id="numbers">
                 <label for="numbers">Include Numbers</label>
-                
+            </div>
+
+            <div class="check">
                 <input type="checkbox" name="" id="symbols">
                 <label for="symbols">Include Symbols</label>
-
             </div>
+            <!-- </div> -->
 
             <!-- strength section -->
             <div class="strength-container">
