@@ -76,10 +76,10 @@ let renderWeatherInfo = (data)=>{
     description.innerText = data?.weather?.[0]?.description;
     weatherIcon.src = `http://openweathermap.org/img/w/${data?.weather?.[0]?.icon}.png`;
     
-    temperature.innerText = data?.main?.temp;
-    windspeed.innerText = data?.wind?.speed;
-    humidity.innerText = data?.main?.humidity;
-    cloudiness.innerText = data?.clouds?.all;
+    temperature.innerText = `${data?.main?.temp}°C`;
+    windspeed.innerText = `${data?.wind?.speed}m/s`;
+    humidity.innerText = `${data?.main?.humidity}%`;
+    cloudiness.innerText = `${data?.clouds?.all}%`;
 }
 
 async function fetchUserWeatherInfo(coordinates){

@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App Project</title>
     <link rel="stylesheet" href="/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;600&family=Merriweather+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -18,10 +20,10 @@
 
         <div class="weather-container">
             <!-- grant location container -->
-            <div class="grant-location-container">
+            <div class="sub-container grant-location-container">
                 <img src="/Images/location.png" width="80" height="80" loading="lazy">
 
-                <p>grant Location Access</p>
+                <p>Grant Location Access</p>
                 <p>Allow Access to get weather Information</p>
                 <button class="btn" data-grantAccess>Grant Access</button>
             </div>
@@ -36,13 +38,13 @@
             </form>
 
             <!-- loading screen container -->
-            <div class="loading-container">
+            <div class="sub-container loading-container">
                 <img src="/Images/loading.gif" height="150"  width="150">
                 <p>Loading</p>
             </div>
 
             <!--show weather info -->
-            <div class="user-info-container">
+            <div class="sub-container user-info-container">
                 <!-- city name and flag -->
                 <div class="name">
                     <p data-cityName></p>
@@ -80,8 +82,6 @@
                         <p>Clouds</p>
                         <p data-cloudiness></p>
                     </div>
-
-
                 </div>
 
 
