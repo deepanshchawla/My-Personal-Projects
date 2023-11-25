@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Products from './Components/Products';
-
+import NewProduct from './Components/NewProduct';
+ 
 let App = ()=> {
   const itemTwoName = "SurfExcel"
   const products = [
@@ -34,8 +35,14 @@ let App = ()=> {
     }
   ];
 
+  function printProductData(data){
+    console.log("I am inside App.js");
+    console.log(data);
+  }
+
   return (
     <div> 
+      <NewProduct pranay={printProductData}></NewProduct>
       <Products items={products}/>
     </div>
   );

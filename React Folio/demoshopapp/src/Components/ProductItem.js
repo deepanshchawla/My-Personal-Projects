@@ -11,7 +11,7 @@ function ProductItem(props){
     function clickHandler(){
         // title = "popcorn";
         setTitle("popcorn");
-        console.log("button clicked");
+        // console.log("button clicked");
     }
 
     return (
