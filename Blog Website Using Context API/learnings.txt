@@ -1,0 +1,12 @@
+1. here in this project we will be learning about the context api 
+
+2. the main reason of using this is that, when we have to pass variables from the parent to the child element.
+
+3. we need not to pass the variable to all the children, that decreases the performance of the project, because the variable is unnecessarily passed to all the children
+despite of the need, because actually we need the variable only in the 4th child and we are passing it from parent to 1 then 2 then 3 and then 4.
+
+4. so here we will be using the context api, we can consider it as a snapshot of the data.
+
+5. we are capturing the data at the parent component i.e. app.js and then we will be using that data anywhere in any of the component.
+
+6. this way we need not to pass the data to each of the internal component and we can simply use the variable of use only where it is needed.
